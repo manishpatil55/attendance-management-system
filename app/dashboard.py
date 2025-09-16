@@ -1,7 +1,7 @@
 # app/dashboard.py
 import streamlit as st
 import pandas as pd
-from lbph.attendance_logger import get_today_file, export_range_to_excel
+from attendance_logger import get_today_file, export_range_to_excel
 from datetime import datetime, timedelta
 
 st.title("Attendance Dashboard")

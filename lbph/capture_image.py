@@ -1,7 +1,7 @@
 # lbph/capture_images.py
 import os
 import cv2
-from lbph.utils import ensure_dirs, load_dnn_detector, detect_faces_dnn
+from utils import ensure_dirs, load_dnn_detector, detect_faces_dnn
 from lbph import config
 
 ensure_dirs()

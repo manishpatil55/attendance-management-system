@@ -2,8 +2,8 @@
 import cv2
 import pickle
 import os
-from lbph.utils import ensure_dirs, load_dnn_detector, detect_faces_dnn, preprocess_face
-from lbph.attendance_logger import mark_attendance
+from utils import ensure_dirs, load_dnn_detector, detect_faces_dnn, preprocess_face
+from attendance_logger import mark_attendance
 from lbph import config
 
 ensure_dirs()

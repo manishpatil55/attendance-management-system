@@ -3,7 +3,7 @@ import os
 import cv2
 import numpy as np
 import pickle
-from lbph.utils import ensure_dirs, preprocess_face
+from utils import ensure_dirs, preprocess_face
 from lbph import config
 
 ensure_dirs()
